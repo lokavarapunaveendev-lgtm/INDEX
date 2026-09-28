@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            color: rgb(22, 22, 21);
+            background-color: gray;
+            padding: 10px;
+        }
+        p{
+            color:white;
+        }
+        .selector{
+            background-color: rgb(70, 75, 73); padding: 10px; margin: 1cqb; 
+        }
+        #select{
+            background-color: rgb(70, 75, 73); padding: 10px; margin: 1cqb; 
+        }
+        *{
+            margin: 0;
+            padding: 10px;
+        }
+        label{
+            color: rgb(22, 22, 21);
+        }
+    </style>
+</head>
+<body style="background-color: rgb(208, 217, 224);"> 
+    <form>
+        <center><h1 id="select">STUDENT DETAILS</h1></center><hr>
+        <center>
+        <div style="background-color: rgb(185, 185, 174); padding: 20px; border-radius: 5vmax; width: 500px;">
+        <label>Student name</label>
+        <input type="text" placeholder="enter your name"><br><br>
+        <label>Registration Number</label>  
+        <input type="text" placeholder="enter your registration number"><br><br>
+        <label>Contact Number</label>
+        <input type="number" placeholder="enter your contact number"><br><br>
+        <label>Date of Birth</label>
+        <input type="date" placeholder="enter your date of birth"><br><br>
+        <label>Email Address</label>
+        <input type="email" placeholder="enter mail address"><br><br>
+        <label>Enter password</label>
+        <input type="password" placeholder="enter your password"><br><br>
+        <p class="selector">choose a gender</p>
+        <input type="radio" name="gender" value="male" style="margin: 1cqb;">male<br><br>
+        <input type="radio" name="gender" value="female" style="margin: 1cqb;">female<br><br>
+        <p class="selector" style="margin: 1cqb; padding: 10px; background-color: rgb(63, 71, 69);">choose your course</p>
+        <input type="checkbox" name="course" value="html">html<br><br>
+        <input type="checkbox" name="course" value="python">python<br><br>
+        <input type="checkbox" name="course" value="c">c<br><br>
+        <input type="checkbox" name="course" value="java">java<br><br>
+        <p class="selector">Upload a mark memos</p>
+        <input type="file" placeholder="upload your marks" style="background-color: bisque;"><br><br>
+        <a href="https://tse3.mm.bing.net/th/id/OIP.7xVvtyAzrBdFXsnFuMAeVQHaH0?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"><input type="button" name="submit" value="submit" style="padding: 10px; margin: 5cqb;"/></a>
+        <button style="margin: 5cqb; background-color: azure; padding: 10px;">Reset</button>
+        </div>
+        </center>
+    </form>
+</body>
+</html> 
